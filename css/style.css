@@ -50,7 +50,7 @@ body{
   }
   
   #para img{
-    width: 350px;
+    width: 330px;
   }
   
 
@@ -685,7 +685,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: red;
 }
 
 .mobile-nav-overly {
@@ -2078,7 +2078,7 @@ font-size: 50px;
   }
 
   .factimg{
-    width: 70% !important; 
+    width: 55% !important; 
   }
 
   #para img{
