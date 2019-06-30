@@ -20,12 +20,6 @@ body{
   color:#333;
 }
 
-#particles-js{
-  background:#24252f;
-  height:400px;
-  height: 100vh;
-
-}
 
 
 /* ==================================================
@@ -113,7 +107,14 @@ body{
   font-size: 40px;
 }
 
+.fondo{
+  background: url('../img/parallax-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 
+}
 
 
 #intro .play-btn:hover::after {
@@ -2078,7 +2079,7 @@ font-size: 50px;
   }
 
   .factimg{
-    width: 55% !important; 
+    width: 45% !important; 
   }
 
   #para img{
@@ -2105,6 +2106,17 @@ font-size: 50px;
 .typed-text{
   font-size: 10px !important;
 }
+textarea {
+  width: 200px !important;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  
+}
 
 
 }
@@ -2112,6 +2124,18 @@ font-size: 50px;
 @media (max-width: 767px) {
   #intro .intro-info {
     width: 100%;
+  }
+
+  textarea {
+    width: 200px !important;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    
   }
 
   
@@ -2212,6 +2236,18 @@ font-size: 50px;
   #intro {
     padding: 100px 0 20px 0;
   }
+
+  textarea {
+    width: 200px !important;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    
+  }
 }
 
 .well.well-trans {
@@ -2256,7 +2292,20 @@ ul.lead-list li span.list {
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-  
+  textarea {
+    width: 200px !important;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    
+  }
+  .formi{
+    margin-left: 0px !important;
+  }
 }
 
 /* 
@@ -2265,5 +2314,45 @@ ul.lead-list li span.list {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+   textarea {
+    width: 200px !important;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    
+  }
   
+  .formi{
+    margin-left: 0px !important;
+  }
+  
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 550px ;
+  height: 250px !important;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
 }
