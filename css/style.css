@@ -28,7 +28,7 @@ body{
 
   .block {
     color: #fff;
-    height: 490px;
+    height: 790px;
     overflow: hidden;
     padding-top: 85px;
   }
@@ -619,7 +619,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   transition: 0.4s;
 }
 
@@ -686,7 +686,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: red;
+  color: white;
 }
 
 .mobile-nav-overly {
@@ -696,7 +696,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(19, 39, 57, 0.8);
+  background:  rgba(0, 0, 0, 0.6);
   overflow: hidden;
   display: none;
 }
@@ -2078,8 +2078,13 @@ font-size: 50px;
     bottom: 15px;
   }
 
+.factimg2{
+  width: 80% !important; 
+
+}
+
   .factimg{
-    width: 45% !important; 
+    width: 75% !important; 
   }
 
   #para img{
@@ -2138,21 +2143,23 @@ textarea {
     
   }
 
-  
+  .tama100{
+    width: 60%;
+  }
 
   .tama{
 
-    width: 70%;
+    width: 60%;
   }
 
   .tama2{
 
-    width: 70% !important;
+    width: 62% !important;
   }
 
   .tama3{
 
-    width: 75% !important;
+    width: 70% !important;
   }
 
   .tama4{
@@ -2161,12 +2168,12 @@ textarea {
   }
 
   .tama7{
-    width: 65% !important;
+    width: 60% !important;
   }
 
 
 .tama9{
-  width: 70%;
+  width: 65%;
 }
 
 
@@ -2306,6 +2313,21 @@ ul.lead-list li span.list {
   .formi{
     margin-left: 0px !important;
   }
+
+
+  .block {
+    color: #fff;
+    height: 1190px;
+    overflow: hidden;
+    padding-top: 85px;
+  }
+
+
+.factimg2{
+  width: 90% !important; 
+
+}
+
 }
 
 /* 
@@ -2330,6 +2352,20 @@ ul.lead-list li span.list {
   .formi{
     margin-left: 0px !important;
   }
+
+  .block {
+    color: #fff;
+    height: 1190px;
+    overflow: hidden;
+    padding-top: 85px;
+  }
+
+
+.factimg2{
+  width: 80% !important; 
+
+}
+
   
 }
 input[type=text] {
@@ -2355,4 +2391,9 @@ textarea {
   border-radius: 4px;
   background-color: #f8f8f8;
   resize: none;
+}
+
+
+.factimg2{
+  width: 72% !important;
 }
