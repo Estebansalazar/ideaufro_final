@@ -2079,12 +2079,12 @@ font-size: 50px;
   }
 
 .factimg2{
-  width: 80% !important; 
+  width: 90% !important; 
 
 }
 
   .factimg{
-    width: 75% !important; 
+    width: 85% !important; 
   }
 
   #para img{
@@ -2324,7 +2324,7 @@ ul.lead-list li span.list {
 
 
 .factimg2{
-  width: 90% !important; 
+  width: 100% !important; 
 
 }
 
@@ -2362,9 +2362,10 @@ ul.lead-list li span.list {
 
 
 .factimg2{
-  width: 80% !important; 
-
+  width: 85% !important; 
 }
+
+
 
   
 }
@@ -2395,5 +2396,6 @@ textarea {
 
 
 .factimg2{
-  width: 72% !important;
+  width: 58%;
 }
+
