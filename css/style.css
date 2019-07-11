@@ -24,7 +24,11 @@ body{
 
 /* ==================================================
   Parallax Styling
-  ================================================== */
+  ================================================== 
+  importante tepa 
+  */
+
+
 
   .block {
     color: #fff;
@@ -44,7 +48,7 @@ body{
   }
   
   #para img{
-    width: 330px;
+    width: 230px;
   }
   
 
@@ -2079,12 +2083,12 @@ font-size: 50px;
   }
 
 .factimg2{
-  width: 90% !important; 
+  width: 50% !important; 
 
 }
 
   .factimg{
-    width: 85% !important; 
+    width: 65% !important; 
   }
 
   #para img{
@@ -2130,6 +2134,7 @@ textarea {
   #intro .intro-info {
     width: 100%;
   }
+
 
   textarea {
     width: 200px !important;
@@ -2317,16 +2322,16 @@ ul.lead-list li span.list {
 
   .block {
     color: #fff;
-    height: 1190px;
+    height: 1390px;
     overflow: hidden;
     padding-top: 85px;
   }
 
 
 .factimg2{
-  width: 100% !important; 
-
+  width: 50% !important; 
 }
+
 
 }
 
@@ -2349,20 +2354,21 @@ ul.lead-list li span.list {
     
   }
   
+  
   .formi{
     margin-left: 0px !important;
   }
 
   .block {
     color: #fff;
-    height: 1190px;
+    height: 1390px;
     overflow: hidden;
     padding-top: 85px;
   }
 
 
 .factimg2{
-  width: 85% !important; 
+  width: 65% !important; 
 }
 
 
@@ -2396,6 +2402,6 @@ textarea {
 
 
 .factimg2{
-  width: 58%;
+  width: 50%;
 }
 
