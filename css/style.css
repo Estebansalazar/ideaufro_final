@@ -1221,7 +1221,7 @@ padding-top: 20px !important;
 }
 
 #services2 .box:hover .title a {
-  color: #007bff;
+  color: #14141a;
 }
 
 #services2 .description {
@@ -1232,8 +1232,9 @@ padding-top: 20px !important;
 }
 
 #why-us {
-  padding: 60px 0;
+  padding: 120px 0;
   background: #252630;
+  height: 1000px;
 }
 
 #why-us .section-header h3,
@@ -1241,21 +1242,27 @@ padding-top: 20px !important;
   color: #fff;
 }
 
+
+.parrafo{
+  color: rgba(14, 13, 13, 0.808) !important;
+  padding-top: 15px;
+}
+
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: #18191f;
+  border-color: #14141a;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
   color: #fff;
   transition: 0.3s ease-in-out;
-  height: 100%;
+  height: 60%;
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #18191f;
+  border-color: #14141a;
 }
 
 #why-us .card i {
@@ -1597,6 +1604,82 @@ padding-top: 20px !important;
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+
+#why-us-dos {
+  padding: 60px 0;
+  background: #252630;
+}
+
+#why-us-dos .section-header h3,
+#why-us-dos .section-header p {
+  color: #fff;
+}
+
+#why-us-dos .card {
+  background: #0f0f0fc2;
+  border-color: #000000;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+#why-us-dos .card:hover {
+  background:#0f0f0f8c;
+  border-color:#0f0f0f75;
+}
+
+#why-us-dos .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#why-us-dos .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#why-us-dos .card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+#why-us-dos .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#why-us-dos .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#why-us-dos .counters {
+  padding-top: 40px;
+}
+
+#why-us-dos .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#why-us-dos .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
 }
 
 /* Clients Section
@@ -2360,6 +2443,12 @@ ul.lead-list li span.list {
     background-color: #f8f8f8;
     resize: none;
     
+  }
+
+  #why-us {
+    padding: 120px 0;
+    background: #252630;
+    height: 000px;
   }
   
   
