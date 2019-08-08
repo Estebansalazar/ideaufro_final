@@ -1875,7 +1875,7 @@ font-size: 50px;
 
 
 .tama45{
-  width: 40%;
+  width: 100%;
 }
 
 .tama4{
@@ -2340,6 +2340,10 @@ textarea {
     padding: 100px 0 20px 0;
   }
 
+  .tama45{
+    width: 70%;
+  }
+
   textarea {
     width: 200px !important;
     height: 150px;
@@ -2408,6 +2412,10 @@ ul.lead-list li span.list {
   }
   .formi{
     margin-left: 0px !important;
+  }
+
+  .tama45{
+    width: 70%;
   }
 
 
