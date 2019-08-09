@@ -414,6 +414,17 @@ h6 {
   padding: 10px 0;
 }
 
+.decoration{
+  text-decoration:none;
+  color: white;
+}
+
+
+.alex{
+
+color: red;
+}
+
 #header .logo h1 {
   font-size: 36px;
   margin: 0;
