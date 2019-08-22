@@ -2566,6 +2566,11 @@ ul.lead-list li span.list {
     height: 1900px;
 
   }
+
+  iframe {
+    max-width: 100%;
+    height: auto;
+}
   
   
   .formi{
