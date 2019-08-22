@@ -237,6 +237,8 @@ h6 {
   background: #fff;
 }
 
+
+
 #preloader:before {
   content: "";
   position: fixed;
@@ -1242,11 +1244,101 @@ padding-top: 20px !important;
   margin-bottom: 0;
 }
 
-#why-us {
+
+#why-us-tres {
+  padding: 120px 0;
+  background: #252630f3 !important;
+  height: 1000px;
+}
+
+#why-us-tres {
   padding: 120px 0;
   background: #252630;
   height: 1000px;
 }
+
+#why-us-tres .section-header h3,
+#why-us-tres .section-header p {
+  color: #fff;
+}
+
+
+
+#why-us-tres {
+  padding: 60px 0;
+  background: #252630;
+}
+
+#why-us-tres .section-header h3,
+#why-us-tres .section-header p {
+  color: #fff;
+}
+
+#why-us-tres .card {
+  background: #0f0f0fc2;
+  border-color: #000000;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+#why-us-tres .card:hover {
+  background:#0f0f0f8c;
+  border-color:#0f0f0f75;
+}
+
+#why-us-tres .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#why-us-tres .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#why-us-tres .card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+#why-us-tres .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#why-us-tres .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#why-us-tres .counters {
+  padding-top: 40px;
+}
+
+#why-us-tres .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#why-us-tres .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
+}
+
 
 #why-us .section-header h3,
 #why-us .section-header p {
@@ -2053,7 +2145,7 @@ font-size: 50px;
   color: #f1f7ff;
 }
 
-}
+
 .animated-text {
   font-size: 39px;
   padding: 0px;
@@ -2468,6 +2560,11 @@ ul.lead-list li span.list {
     padding: 120px 0;
     background: #252630;
     height: 000px;
+  }
+
+  #why-us-tres{
+    height: 1900px;
+
   }
   
   
