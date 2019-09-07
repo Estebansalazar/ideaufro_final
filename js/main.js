@@ -73,6 +73,9 @@
     }
   });
 
+  
+
+
   // Navigation active state on scroll
   var nav_sections = $('section');
   var main_nav = $('.main-nav, .mobile-nav');
@@ -182,6 +185,3 @@ document.addEventListener("DOMContentLoaded", function() {
   // On DOM Load initiate the effect
   if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
-
-
-

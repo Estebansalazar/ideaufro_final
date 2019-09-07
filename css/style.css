@@ -290,6 +290,11 @@ h6 {
   position: relative;
 }
 
+
+#cosa{
+  height: 800px;
+
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -919,6 +924,9 @@ section-bg2{
 }
 
 
+
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
@@ -1245,16 +1253,19 @@ padding-top: 20px !important;
 }
 
 
+
+
+
 #why-us-tres {
   padding: 120px 0;
   background: #252630f3 !important;
-  height: 850px;
+  height: 900px;
 }
 
 #why-us-tres {
   padding: 120px 0;
   background: #252630;
-  height: 850px;
+  height: 900px;
 }
 
 #why-us-tres .section-header h3,
@@ -2563,7 +2574,7 @@ ul.lead-list li span.list {
   }
 
   #why-us-tres{
-    height: 2000px;
+    height: 2100px;
 
   }
 
