@@ -2312,6 +2312,18 @@ font-size: 50px;
   color: white;
 }
 
+#why-us {
+  padding: 120px 0;
+  background: #252630;
+  height: 2200px;
+}
+
+#why-us-tres{
+  height: 2200px;
+
+}
+
+
 #intro p {
   color: red;
   font-weight: 700;
@@ -2403,6 +2415,19 @@ textarea {
   .lafactory{
     font-size: 32px;
     }
+
+
+    #why-us {
+      padding: 120px 0;
+      background: #252630;
+      height: 2200px;
+    }
+    
+    #why-us-tres{
+      height: 2200px;
+    
+    }
+    
     
 
 #intro h1 {
@@ -2511,6 +2536,7 @@ ul.lead-list li span.list {
 
 
 
+
 @media (min-width: 481px) and (max-width: 767px) {
 
   textarea {
@@ -2546,6 +2572,9 @@ ul.lead-list li span.list {
 }
 
 
+
+
+
 }
 
 /* 
@@ -2570,7 +2599,7 @@ ul.lead-list li span.list {
   #why-us {
     padding: 120px 0;
     background: #252630;
-    height: 000px;
+    height: 2100px;
   }
 
   #why-us-tres{
