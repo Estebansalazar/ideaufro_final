@@ -2009,6 +2009,61 @@ font-size: 50px;
   font-size: 20px !important;
   padding-top: 15px;
 }
+
+
+
+
+    
+button {
+  background-color: #c72028;
+  border: none;
+  transition: background-color 0.5s linear, color 0.5s linear;
+}
+button:hover {
+  background-color: #c72028;
+}
+button:focus {
+  outline: none;
+}
+
+
+
+
+@keyframes shadowFloat {
+  0% {
+    box-shadow: 0 20px 40px #c7c7c7;
+    transform: translateY(-3px);
+  }
+  100% {
+    box-shadow: 0 10px 10px #bababa;
+    transform: translateY(3px);
+  }
+}
+
+.add-to-cart {
+  animation: shadowFloat 1.2s linear alternate infinite;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px #00aaaa;
+}
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105";
+}
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
