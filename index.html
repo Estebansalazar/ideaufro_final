@@ -487,7 +487,7 @@
                               <p class="text-justify parrafo"><strong style="color: red;">iDEAFactory2030</strong> es un programa destinado a la formación práctica, orientado a <strong>despertar vocaciones emprendedoras </strong>con base innovadora y aprovechar la formación científica o tecnológica de Estudiantes de Pregrado y Estudiantes de Postgrado de la Universidad de La Frontera.</p>
                             </p>
                                   <div class="embed-responsive embed-responsive-16by9">
-                                      <iframe width="560" height="315" src="https://www.youtube.com/embed/Wsxj9Geukwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                      <iframe width="560" height="315" src="https://www.youtube.com/embed/Wsxj9Geukwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                                   </div>
                                   <p class="text-center " style="color:black; margin-top:20px;"><strong>Mira nuestro video 👆</strong></p>
                                   <p class="text-justify" style="color:rgba(0, 0, 0, 0.739);">
@@ -719,10 +719,7 @@
 
 
 
-    <!--==========================
-      Portfolio Section
-    ============================-->
-    <section id="portfolio" class="clearfix">
+    <!-- <section id="portfolio" class="clearfix">
       <div class="container">
 
         <header class="section-header">
@@ -866,7 +863,7 @@
         </div>
 
       </div>
-    </section><!-- #portfolio -->
+    </section> -->
 
 
     <!--==========================
@@ -1053,67 +1050,92 @@
 
     </section>
 
-    
+   
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact">
-      <div class="container-fluid">
-
+    <section id="contact" class="section-bg3 wow fadeInUp">
+      
         <div class="section-header">
-          <h3>Contacto</h3>
-        </div>
-
-        <div class="row wow fadeInUp">
-
-          <div class="col-lg-6">
-            <img src="img/instituto_de_innovacion_y_empredimiento.jpg" alt="iDEAUFRO" class="img-fluid" width="100%">
+            <h2 class="text-center" style="font-size: 40px;"><strong>Contacto</strong></h2>
           </div>
-
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-md-5 info">
-                <i class="ion-ios-location-outline"></i>
-                <p>Uruguay 1545, Temuco, Región de la Araucanía</p>
-              </div>
-              <div class="col-md-4 info">
-                <i class="ion-ios-email-outline"></i>
-                <p>ideaufro@ufrontera.cl</p>
-              </div>
-              <div class="col-md-3 info">
-                <i class="ion-ios-telephone-outline"></i>
-                <p>(45) 259 6656</p>
-              </div>
-            </div>
-
-            <div class="form">
-
-                <form  class="formi" name="contact" method="POST" data-netlify="true" style="margin-left: 100px">
-
-                      <label class="">Nombre <input type="text" class="form-control" name="name" /></label>   
           
-                      <label class="">Teléfono<input type="text" class="form-control" name="name" /></label>   
+          <div class="row contact-info text-center">
 
-                      <label >Email: <input type="email" name="email " class="form-control" /></label>
-             
-                      <label >Mensaje: <br><textarea name="message"  class="form-control" style="width: 500px;" ></textarea></label>
-                
-                    <div class="field">
-                      <div data-netlify-recaptcha="true">
-
-                      </div>
-                    </div>
-                      <button style="margin-top: 20px;" type="submit" class="center-block">Enviar</button>
-                  </form>
+     
+              <div class="col-md-6">
+                <div class="contact-phone">
+                  <i class="fas fa-phone"></i>
+                  <h3>Teléfono</h3>
+                  <p><a href="tel:+45 259 6656">(45) 259 6656</a></p>
+                </div>
+              </div>
+    
+              <div class="col-md-6">
+                <div class="contact-email">
+                  <i class="fas fa-envelope"></i>
+                  <h3>Email</h3>
+                  <p><a href="mailto:ideaufro@ufrontera.cl">ideaufro@ufrontera.cl</a></p>
+                </div>
+              </div>
+    
             </div>
-          </div>
+  
+          <div class="container">
+              <div class="row">
+                
+                  <div class="col-md-12">
+                      <div class="well well-sm">
+                          <form name="contact" method="POST" data-netlify="true">
+                              <fieldset>
+                                  <legend class="text-center header pt-3">¿Tienes alguna consulta? Juntémonos y conversemos ☕</legend>
+          
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                      <div class="col-md-12">
+                                          <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                      </div>
+                                  </div>
+          
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                      <div class="col-md-12">
+                                          <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                      </div>
+                                  </div>
+          
 
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                      <div class="col-md-12">
+                                          <textarea class="form-control" id="message" name="message" placeholder="Mensajes" rows="7"></textarea>
+                                      </div>
+                                  </div>
+          
+                                  <div class="form-group">
+                                      <div class="col-md-12 text-center">
+                                          <button type="submit" class="btn btn-danger btn-lg mt-3">Enviar</button>
+                                      </div>
+                                  </div>
+                              </fieldset>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          </div>
+  
         </div>
 
-      </div>
-    </section><!-- #contact -->
-
-  </main>
+        <div class="container">
+  
+    
+           
+      </section><!-- #contact -->
+  
+    </main>
+  
 
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-ee5ad936-8145-4e85-b063-d3c89279a0ca"></div>

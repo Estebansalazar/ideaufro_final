@@ -783,9 +783,15 @@ color: red;
   background: #ecf5ff;
 }
 
+
 section-bg2{
   background: red !important;
 }
+
+.section-bg3 {
+  background:  #f1f6fb;
+}
+
 
 /* About Us Section
 --------------------------------*/
@@ -1844,7 +1850,7 @@ padding-top: 20px !important;
 --------------------------------*/
 
 #contact {
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 0.1);
   padding: 60px 0;
   overflow: hidden;
 }
@@ -1862,7 +1868,7 @@ padding-top: 20px !important;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+  color: #f82249;
 }
 
 #contact .contact-about p {
@@ -1872,30 +1878,7 @@ padding-top: 20px !important;
   color: #888;
 }
 
-#contact .social-links {
-  padding-bottom: 20px;
-}
 
-#contact .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #fff;
-  color: #007bff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  border: 1px solid #007bff;
-}
-
-#contact .social-links a:hover {
-  background: #007bff;
-  color: #fff;
-}
 
 .lafactory{
 font-size: 50px;
@@ -1957,12 +1940,6 @@ font-size: 50px;
   font-size: 13px;
 }
 
-#contact .form input,
-#contact .form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
 
 #contact .form button[type="submit"] {
   background: #252630;
@@ -2387,17 +2364,6 @@ button:focus {
 .typed-text{
   font-size: 10px !important;
 }
-textarea {
-  width: 200px !important;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
-  
-}
 
 
 }
@@ -2408,17 +2374,6 @@ textarea {
   }
 
 
-  textarea {
-    width: 200px !important;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-    
-  }
 
   .tama100{
     width: 60%;
@@ -2538,17 +2493,7 @@ textarea {
     width: 70%;
   }
 
-  textarea {
-    width: 200px !important;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-    
-  }
+
 }
 
 .well.well-trans {
@@ -2594,17 +2539,7 @@ ul.lead-list li span.list {
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-  textarea {
-    width: 200px !important;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-    
-  }
+
   .formi{
     margin-left: 0px !important;
   }
@@ -2639,17 +2574,7 @@ ul.lead-list li span.list {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-   textarea {
-    width: 200px !important;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-    
-  }
+
 
   #why-us {
     padding: 120px 0;
@@ -2702,16 +2627,7 @@ input[type=email] {
   box-sizing: border-box;
 }
 
-textarea {
-  width: 550px ;
-  height: 250px !important;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
-}
+
 
 
 .factimg2{
